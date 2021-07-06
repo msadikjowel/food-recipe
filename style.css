@@ -3,7 +3,6 @@ body{
     margin: 0%;
     box-shadow: 20px 20px 50px lightgray;
 }
-
 h1{
     font-size: 70px;
     color: gray;
@@ -150,6 +149,12 @@ span{
     align-content: center;
     padding-bottom: 20px;
 }
+.large-social{
+    font-size: xx-large;
+}
+.grey-color{
+    color: rgb(54, 52, 52);
+}
 .last-paragraph{
     text-align: center;
     color: rgb(185, 181, 181);
@@ -163,5 +168,6 @@ span{
     padding-bottom: 5px;
     text-align: center;
     font-size: xx-large;
+    color: rgb(109, 104, 104);
 }
 
