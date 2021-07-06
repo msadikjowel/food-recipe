@@ -1,6 +1,7 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', verdana;
     margin: 0%;
+    box-shadow: 20px 20px 50px lightgray;
 }
 
 h1{
@@ -15,6 +16,20 @@ h3{
     font-size: 40px;
     color: gray;
 }
+h4{
+    font-size: 25px;
+    color: rgb(34, 33, 33);
+    padding-left: 10px;
+}
+h5{
+    font-size: 20px;
+    color: rgb(34, 33, 33);
+}
+h6{
+    font-size: 40px;
+    color: gray;
+    text-align: center;
+}
 .first-section{
     display: flex;
     padding-left: 50px;
@@ -25,13 +40,13 @@ h3{
 }
 img{
     width: 80%;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 .second-div{
     width: 50%;
 }
 span{
-    color: orange;
+    color: rgb(250,120,49)
 }
 .first-paragraph{
     color: gray;
@@ -48,10 +63,12 @@ span{
 }
 #second-picture{
     background-image: url(images/frame.png);
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .second-paragraph{
     padding-right: 30%;
-    color: rgb(63, 57, 57);
+    color: rgb(87, 82, 82);
     padding-bottom: 80px;
 }
 .third-section{
@@ -67,3 +84,84 @@ span{
 .third-div{
     align-content: center;
 }
+.recipe-paragraph{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color: rgb(63, 57, 57);
+}
+.recipe{
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 5px;
+    border-radius: 30px;
+    padding-right: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipe-image{
+    padding-left: 33px;
+    padding-top: 33px;
+}
+.pricing-plan{
+    align-content: center;
+    padding-right: 40px;
+}
+.pricing{
+    align-content: center;
+    width: 50%;
+    padding-right: 2px;
+}
+.top-color{
+    border-top: 0.5px solid;
+    border-image: linear-gradient((rgba(254,79,48,255),rgba(252,131,67,254)));
+    border-image-slice: 1;
+    color: rgba(253,105,58,255)
+}
+.contact-div{
+    width: 50%;
+    align-content: center;
+}
+#contact-image{
+    width: 50%;
+    padding-top: 80px;
+    padding-left: 120px;
+    opacity: 90%;;
+}
+.contact-paragraph{
+    text-align: left;
+    border-left: 3px solid;
+    border-color: rgba(253,105,58,255);
+    border-image-slice: 1;
+    padding-left: 10px;
+    
+}
+.social-section{
+    align-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 5px;
+    border-radius: 40px;
+    padding-right: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+.social{
+    width: 50%;
+    align-content: center;
+    padding-bottom: 20px;
+}
+.last-paragraph{
+    text-align: center;
+    color: rgb(185, 181, 181);
+    padding-bottom: 100px;
+}
+.last-div{
+    background-color: rgb(5, 5, 5);
+}
+#last-id{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
